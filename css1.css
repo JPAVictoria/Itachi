@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    background-image: url("ImagesNaruto/wallpapersden.com_cool-itachi-uchiha-naruto-art_wxl.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+h1,h2{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+
+ul{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: gray;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    padding:16px;
+    margin-left: 4px;
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    font-size: 110%;
+}
+
+li a:hover{
+    background-color: darkkhaki;
+    text-decoration: underline;
+}
+img{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    border-style: double double hidden hidden;
+    border-width: 10px;
+    border-color:black;
+}
+
+.A{ /*Center an image, etc*/
+    text-align: center;
+}
+
+p,ol{
+    font-size: 150%;
+    font-variant: small-caps;
+    text-align: center;
+    color:white;
+}
+
+
+table,th,td{
+    border: 2px solid white;
+
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+td,th{
+    font-size:120%;
+    padding: 5px;
+    text-align: center;
+    color:white;
+}
+
+th:hover,td:hover{
+    background-color: grey;
+}
+
+.box{
+    box-sizing: border-box;
+}
+
+.Image{
+    width: 260px;
+    float: left;
+    height: 260px;
+    padding: 70px;
+}
